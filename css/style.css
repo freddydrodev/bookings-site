@@ -1,0 +1,244 @@
+body {
+  background-color: #f9f9f9;
+}
+
+body,
+button,
+input,
+textarea,
+select,
+option,
+table {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  color: #2d3b55;
+}
+
+.header {
+  background-color: #4a30db;
+}
+
+.opac-6 {
+  opacity: 0.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  font-weight: 900;
+}
+.nav-tabs {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+.nav-tabs .nav-item .nav-link {
+  border: none;
+  border-radius: 0;
+  border-bottom: 4px solid transparent;
+  color: #2d3b55;
+  text-transform: capitalize;
+}
+
+.nav-tabs.flex-column .nav-item .nav-link {
+  border: 0;
+  border-left: 4px solid transparent;
+}
+.nav-tabs .nav-item .nav-link.active {
+  border-color: #4a30db;
+  color: #4a30db;
+  background-color: #f4f3fa;
+}
+
+.svg-img {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.ui-datepicker-next:before,
+.ui-datepicker-prev:before {
+  margin-top: 5px;
+  display: block;
+  font-family: "flaticon";
+}
+
+.ui-datepicker-next:hover:before,
+.ui-datepicker-prev:hover:before {
+  color: #4a30db;
+}
+
+.ui-state-default {
+  color: #78808d;
+  text-align: center !important;
+}
+
+.ui-state-active {
+  background-color: #e8e9ed;
+}
+
+.ui-state-highlight,
+.ui-state-highlight.ui-state-active {
+  background-color: #4a30db;
+  color: white;
+}
+
+.ui-datepicker-calendar td {
+  width: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.ui-datepicker-header {
+  background-color: #4a30db;
+  color: white;
+}
+.ui-datepicker {
+  padding: 0;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.ui-datepicker-unselectable.ui-state-disabled {
+  opacity: 0.25;
+}
+
+.ui-datepicker-prev:before {
+  content: "\f10e";
+}
+
+.ui-datepicker-next:before {
+  content: "\f10f";
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  text-align: center;
+  cursor: pointer;
+}
+
+.table thead {
+  background-color: #4a30db;
+  color: white;
+}
+
+.table thead th {
+  font-weight: 400 !important;
+  text-transform: capitalize;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.beach {
+  border-top: 1px solid #eee;
+}
+
+.btn-primary {
+  background-color: #4a30db;
+}
+.btn-primary:hover {
+  background-color: #3113d8;
+}
+.btn-info {
+  background-color: #5d73f1;
+}
+.btn-info:hover {
+  background-color: rgb(55, 83, 240);
+}
+.btn-warning {
+  background-color: #ff985c;
+  color: white;
+}
+.btn-warning:hover {
+  background-color: rgb(255, 131, 60);
+  color: white;
+}
+
+/*full calendar design */
+#full-calendar {
+}
+
+.fc-view-container {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+/* .fc-view-container * {
+  
+} */
+.fc-unthemed .fc-content {
+  border-color: #e8e9ed !important;
+}
+
+.fc-event {
+  border: none;
+  border-left: 4px solid #4a30db;
+  padding: 10px;
+  background-color: #f4f3fa;
+  margin-bottom: 5px;
+}
+
+.fc-title {
+  color: #4a30db;
+  font-weight: 700;
+}
+.fc-time {
+  margin-right: 5px;
+}
+
+.fc-more {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.fc-button.fc-state-default {
+  background: white;
+  border: 1px solid #e8e9ed;
+}
+.fc-button.fc-state-default.fc-state-active,
+.fc-button.fc-state-default:focus {
+  background: #4a30db;
+  color: white;
+  border: none;
+}
+.fc-event-container[colspan] .fc-event {
+  border-left: 4px solid #ff2a55;
+  background-color: #fff7f8;
+}
+
+.fc-event-container[colspan] .fc-title {
+  color: #ff2a55;
+}
+
+/* form design */
+.form-control,
+.custom-select {
+  border-radius: 0;
+  border: 1px solid #e8e9ed;
+}
+.form-control:hover,
+.form-control:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: #4A30DB;
+  outline: none;
+}

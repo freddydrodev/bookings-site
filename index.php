@@ -39,7 +39,8 @@
 
     <?php include './template/guests-booking.php' ?>
     
-    <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">8</div>
+    <?php include './template/settings.php' ?>
+    
   </div>
   <!-- end content container  -->
 

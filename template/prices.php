@@ -1,5 +1,5 @@
 <!-- strat prices content -->
-    <div class="tab-pane fade show active" id="prices" role="tabpanel" aria-labelledby="prices-tab">
+    <div class="tab-pane fade" id="prices" role="tabpanel" aria-labelledby="prices-tab">
       <h5 class="alert alert-info text-center" role="alert">For information and help on prices and seasons,
         <a href="#"> please click here</a>
       </h5>
@@ -23,8 +23,8 @@
         </div>
         <div class="col-9 tab-content">
           <?php include 'template/prices.lake.php' ?>
-          <div class="tab-pane fade" id="price-beach" role="tabpanel" aria-labelledby="price-beach-tab">6</div>
-          <div class="tab-pane fade" id="reward-management" role="tabpanel" aria-labelledby="reward-management-tab">6</div>
+          <?php include 'template/prices.beach.php' ?>
+          <?php include 'template/prices.reward.php' ?>
         </div>
       </div>
     </div>

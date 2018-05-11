@@ -13,10 +13,10 @@
       <a class="nav-link" id="guests-tab" data-toggle="tab" href="#guests" role="tab" aria-controls="guests" aria-selected="false">guests</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" id="prices-tab" data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="false">prices</a>
+      <a class="nav-link" id="prices-tab" data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="false">prices</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="templates-tab" data-toggle="tab" href="#templates" role="tab" aria-controls="templates" aria-selected="false">templates</a>
+      <a class="nav-link active" id="templates-tab" data-toggle="tab" href="#templates" role="tab" aria-controls="templates" aria-selected="false">templates</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" id="guestbook-tab" data-toggle="tab" href="#guestbook" role="tab" aria-controls="guestbook" aria-selected="false">guest book page</a>

@@ -1,5 +1,5 @@
-<div class="tab-pane fade active show" id="price-lake" role="tabpanel" aria-labelledby="price-lake-tab">
-  <h3 class="mb-4">Season table for lake view</h3>
+<div class="tab-pane fade" id="price-beach" role="tabpanel" aria-labelledby="price-beach-tab">
+<h3 class="mb-4">Seasonal table for beach house</h3>
   <table class="table table-hover table-sm box table-striped table-bordered">
     <thead>
       <tr>
@@ -237,4 +237,5 @@
       </table>
       <button class="btn btn-success btn-lg">Save</button>
   </form>
+  
 </div>

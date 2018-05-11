@@ -35,8 +35,10 @@
 
     <?php include './template/prices.php' ?>
 
-    <div class="tab-pane fade" id="templates" role="tabpanel" aria-labelledby="templates-tab">6</div>
-    <div class="tab-pane fade" id="guestbook" role="tabpanel" aria-labelledby="guestbook-tab">7</div>
+    <?php include './template/template.php' ?>
+
+    <?php include './template/guests-booking.php' ?>
+    
     <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">8</div>
   </div>
   <!-- end content container  -->

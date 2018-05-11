@@ -1,4 +1,4 @@
-<div class="tab-pane fade" id="template-email-lake" role="tabpanel" aria-labelledby="template-email-lake-tab">
+<div class="tab-pane fade show active" id="template-email-lake" role="tabpanel" aria-labelledby="template-email-lake-tab">
   <table class="table table-hover table-sm box table-striped table-bordered">
     <thead>
       <tr>

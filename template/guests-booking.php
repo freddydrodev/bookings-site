@@ -1,6 +1,6 @@
 <!-- strat guest booking content -->
     
-  <div class="tab-pane fade active show" id="guestbook" role="tabpanel" aria-labelledby="guestbook-tab">
+  <div class="tab-pane fade" id="guestbook" role="tabpanel" aria-labelledby="guestbook-tab">
     <h5 class="alert alert-info text-center" role="alert">For information and help on your booking website,
         <a href="#"> please click here</a>
       </h5>

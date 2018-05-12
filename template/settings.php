@@ -1,4 +1,4 @@
-<div class="tab-pane fade show active" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+<div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">
   <h3 class="text-center">Your existing apartments</h3>
  <div class="row">
  <div class="col-8 offset-2">

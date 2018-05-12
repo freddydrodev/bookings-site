@@ -1,7 +1,7 @@
 <!-- start nav link to switch contents -->
   <ul class="nav nav-tabs border-0 nav-fill">
     <li class="nav-item">
-      <a class="nav-link" id="overview-tab" data-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="false">overview</a>
+      <a class="nav-link active" id="overview-tab" data-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="false">overview</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" id="calendar-tab" data-toggle="tab" href="#calendar" role="tab" aria-controls="calendar" aria-selected="false">calendar</a>
@@ -21,7 +21,7 @@
     <li class="nav-item">
       <a class="nav-link" id="guestbook-tab" data-toggle="tab" href="#guestbook" role="tab" aria-controls="guestbook" aria-selected="false">guest book page</a>
     </li>
-    <li class="nav-item active">
+    <li class="nav-item">
       <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">settings</a>
     </li>
   </ul>

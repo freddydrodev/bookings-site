@@ -1,5 +1,5 @@
 <!-- start overview content -->
-    <div class="tab-pane fade active show" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+    <div class="tab-pane fade" id="overview" role="tabpanel" aria-labelledby="overview-tab">
 
       <!-- lake overview -->
       <div class="d-flex align-items-center">

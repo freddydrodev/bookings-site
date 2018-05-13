@@ -7,14 +7,20 @@
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/font/flaticon.css">
+  <link rel="stylesheet" href="css/icon/flaticon.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+  <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
   <link rel="stylesheet" href="css/pretty-checkbox.min.css">
   <link rel="stylesheet" href="css/fullcalendar.min.css" />
   <!-- <link rel="stylesheet" href="css/fullcalendar.print.css" /> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/material_blue.css">
   <link rel="stylesheet" href="./css/style.css">
-
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="js/jquery-ui.min.js"></script> -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -43,14 +49,14 @@
     
   </div>
   <!-- end content container  -->
-
-  <script src="js/jquery-3.3.1.min.js"></script>
+    <?php include './template/popup.php' ?>
+  
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery-ui.min.js"></script>
   <script src="js/list.min.js"></script>
   <script src="js/moment.min.js"></script>
   <script src="js/fullcalendar.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   <!-- <script src="main.js"></script> -->
   <script>
     jQuery(document).ready(function () {
@@ -60,8 +66,21 @@
         maxDate: "+1M +10D"
       });
 
-      // page is now ready, initialize the calendar...
+      //bookings 
+      const popup = $('#popup').dialog({
+        width: 700,
+        modal: true,
+        autoOpen: false
+      });
 
+      $('.create-bookings').click(function(){
+        popup.dialog('open');
+      })
+
+      //perfect scroll for the modal content
+
+      $(".date-pickr").flatpickr();
+      // page is now ready, initialize the calendar...
       $('#full-calendar').fullCalendar({
         header: {
         left: 'prev,next today',

@@ -5,7 +5,7 @@
           <input type="text" class="form-control" placeholder="Search for bookings...">
         </div>
         <div class="col-3">
-          <button name="search-bookings" class="btn btn-primary btn-block text-center">Create a new booking</button>
+          <button name="search-bookings" class="btn btn-primary btn-block text-center create-bookings">Create a new booking</button>
         </div>
       </div>
       <p class="py-3 mb-0 text-muted">Need help click

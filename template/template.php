@@ -33,6 +33,10 @@
                 <a class="nav-link" id="template-file-beach-tab" data-toggle="tab" href="#template-file-beach" role="tab" aria-controls="template-file-beach"
                   aria-selected="true">File attachments for beach view</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" id="template-settings-tab" data-toggle="tab" href="#template-settings" role="tab" aria-controls="template-settings"
+                  aria-selected="true">Settings for emails to your guests</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -43,6 +47,7 @@
           <?php include 'template/template.email.beach.php' ?>
           <?php include 'template/template.pdf.beach.php' ?>
           <?php include 'template/template.file.beach.php' ?>
+          <?php include 'template/template.settings.php' ?>
         </div>
       </div>
 </div>

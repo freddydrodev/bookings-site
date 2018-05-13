@@ -109,14 +109,14 @@
 
       <!-- beach overview -->
       <div class="beach my-3 pt-3">
-        <div class="d-flex align-items-center justify-content-end text-right">
+        <div class="d-flex align-items-center">
+          <img src="./assets/beach.svg" width="80" alt="lake image" class="mr-3 rounded-circle svg-img" />
           <div>
             <h2>Object overview beach house</h2>
             <p class="opac-6 mb-0">Your guest website:
               <a href="#">i37h0dm7.fewodu.de</a>
             </p>
           </div>
-          <img src="./assets/beach.svg" width="80" alt="lake image" class="ml-3 rounded-circle svg-img" />
         </div>
 
         <h4 class="mt-4 text-right">Availability Calendar</h4>

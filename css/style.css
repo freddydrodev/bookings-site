@@ -242,3 +242,44 @@ button {
   color: #4A30DB;
   outline: none;
 }
+
+.ui-dialog-titlebar {
+  background-color: #fff;
+  border: none;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 1rem;
+}
+.ui-dialog {
+  background-color: #fff;
+}
+.ui-widget-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ui-dialog-titlebar-close {
+  height: 100%;
+  float: right;
+  border: 1px solid rgb(112, 112, 112);
+  padding: 10px;
+  color: rgb(112, 112, 112);
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.ui-dialog-titlebar-close:hover {
+  color: rgb(255, 78, 78);
+  border-color: rgb(255, 78, 78);
+}
+.ui-dialog-titlebar-close:before {
+  content: "\f10c";
+  font-family: Flaticon;
+}
+.flatpickr-input {
+  background-color: white !important;
+}
+.dialog-content {
+  height: 450px !important;
+  overflow-y: scroll;
+}
